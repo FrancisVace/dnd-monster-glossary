@@ -30,7 +30,7 @@ function App() {
             </div>
             <div className="relative flex items-center justify-center m-2">
                 {detailID === "" ?
-                    <MonsterGrid monsterDetails={{skip: page * itemsPerPage, searchTerm: searchTerm}} onCardClicked={setDetailID}/> :
+                    <MonsterGrid monsterDetails={{skip: page * itemsPerPage, name: searchTerm}} onCardClicked={setDetailID}/> :
                     <MonsterDetails id={detailID} onClose={() => setDetailID("")}/>
                 }
             </div>

@@ -12,5 +12,6 @@ export default defineConfig({
       },
     }),
   ],
+  base: "/dnd-monster-glossary/",
 })
 

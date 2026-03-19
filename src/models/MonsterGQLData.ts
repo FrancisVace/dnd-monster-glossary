@@ -15,7 +15,7 @@ type GetMonstersGQLQuery = {
 
 export interface GetMonstersGQLQueryVariables {
     skip: number
-    searchTerm: string
+    name: string
 }
 
 export const MONSTERS_GQL_QUERY: TypedDocumentNode<
